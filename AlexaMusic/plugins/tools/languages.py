@@ -27,31 +27,31 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🇦🇺 ᴇɴɢʟɪsʜ 🇦🇺",
+            text="🇦🇺 الإنجليزية 🇦🇺",
             callback_data=f"languages:en",
         ),
         InlineKeyboardButton(
-            text="🇮🇳 हिन्दी 🇮🇳",
+            text="🇮🇳 الهندية 🇮🇳",
             callback_data=f"languages:hi",
         ),
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇱🇰 සිංහල 🇱🇰",
+            text="🇱🇰 🇱🇰",
             callback_data=f"languages:si",
         ),
         InlineKeyboardButton(
-            text="🇦🇿 Azərbaycan 🇦🇿",
+            text="🇦🇿 أوزباكستان 🇦🇿",
             callback_data=f"languages:az",
         ),
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇮🇳 ગુજરાતી 🇮🇳",
+            text="🇮🇳 الهند 🇮🇳",
             callback_data=f"languages:gu",
         ),
         InlineKeyboardButton(
-            text="🇹🇷 Türkiye Türkçesi 🇹🇷",
+            text="🇹🇷 تركيا 🇹🇷",
             callback_data=f"languages:tr",
         ),
     )
